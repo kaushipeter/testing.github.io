@@ -1,0 +1,163 @@
+{
+    "medicines": [
+      {
+        "name": "Asprin",
+        "price": 10,
+        "image": "images/ asprin2.jpg"
+      },
+      {
+        "name": "Codeine",
+        "price": 15,
+        "image": "images/ Codeine.jpeg"
+      },
+      {
+        "name": "Diclofenac Sodium",
+        "price": 12,
+        "image": "images/ Diclofenac Sodium.jpeg"
+      },
+      {
+        "name": "Ibuprofen",
+        "price": 8,
+        "image": "images/ ibuprofen2.jpg"
+      },
+      {
+        "name": "Tramadol",
+        "price": 20,
+        "image": "images/ Tramadol.jpeg"
+      },
+      {
+        "name": "Paracetamol",
+        "price": 5,
+        "image": "images/ paracetamol .jpeg"
+      }
+    ],
+    "antibiotics": [
+      {
+        "name": "Azithromycin",
+        "price": 18,
+        "image": "images/ Azithromycin.jpeg"
+      },
+      {
+        "name": "Cephalexin",
+        "price": 16,
+        "image": "images/ Cephalexin.jpeg"
+      },
+      {
+        "name": "Ciprofloxacin Tablets",
+        "price": 14,
+        "image": "images/ ciprofloxacin tablets.jpeg"
+      },
+      {
+        "name": "Clarithromycin",
+        "price": 12,
+        "image": "images/ Clarithromycin.webp"
+      },
+      {
+        "name": "Doxycycline",
+        "price": 10,
+        "image": "images/ Doxycycline.avif"
+      },
+      {
+        "name": "Metronidazole",
+        "price": 7,
+        "image": "images/ Metronidazole.jpeg"
+      }
+    ],
+    "antidepressants": [
+      {
+        "name": "Amitriptyline",
+        "price": 25,
+        "image": "images/ Amitriptyline.jpeg"
+      },
+      {
+        "name": "Citalopram",
+        "price": 22,
+        "image": "images/ Citalopram.webp"
+      },
+      {
+        "name": "Duloxetine",
+        "price": 28,
+        "image": "images/ Duloxetine.jpeg"
+      },
+      {
+        "name": "Escitalopram",
+        "price": 24,
+        "image": "images/ Escitalopram.jpeg"
+      },
+      {
+        "name": "Fluoxetine",
+        "price": 20,
+        "image": "images/ Fluoxetine.jpeg"
+      },
+      {
+        "name": "Ibuprofen",
+        "price": 12,
+        "image": "images/ Ibuprofen.jpeg"
+      }
+    ],
+    "antihistamines": [
+      {
+        "name": "Cetirizine",
+        "price": 9,
+        "image": "images/ Cetirizine.webp"
+      },
+      {
+        "name": "Promethazine",
+        "price": 7,
+        "image": "images/ Promethazine.webp"
+      },
+      {
+        "name": "Chlorpheniramine",
+        "price": 6,
+        "image": "images/ Chlorpheniramine.webp"
+      },
+      {
+        "name": "Diphenhydramine",
+        "price": 7,
+        "image": "images/ Diphenhydramine.jpeg"
+      },
+      {
+        "name": "Fexofenadine",
+        "price": 10,
+        "image": "images/ Fexofenadine.jpeg"
+      },
+      {
+        "name": "Loratadine",
+        "price": 8,
+        "image": "images/ Loratadine.jpeg"
+      }
+    ],
+    "antihypertensives": [
+      {
+        "name": "Amlodipine",
+        "price": 12,
+        "image": "images/ Amlodipine.jpeg"
+      },
+      {
+        "name": "Atenolol",
+        "price": 11,
+        "image": "images/ Atenolol.jpeg"
+      },
+      {
+        "name": "Enalapril",
+        "price": 14,
+        "image": "images/ Enalapril.webp"
+      },
+      {
+        "name": "Lisinopril",
+        "price": 15,
+        "image": "images/ Lisinopril.jpeg"
+      },
+      {
+        "name": "Losartan",
+        "price": 18,
+        "image": "images/ Losartan.webp"
+      },
+      {
+        "name": "Metoprolol",
+        "price": 13,
+        "image": "images/ Metoprolol.jpeg"
+      }
+    ]
+  }
+  

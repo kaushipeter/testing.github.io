@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Registration/title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/ favicon icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/ favicon icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/ favicon icon/favicon-16x16.png">
+    <link rel="manifest" href="images/ favicon icon/site.webmanifest">
+    <link rel="mask-icon" href="images/ favicon icon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+        <div class="logo">
+            <img src="images/ new logo.jpg" alt="999 Hospital Logo">
+        </div>
+        <h1 class="Name">999 HOSPITAL</h1>
+    <nav> 
+        
+        <a href="index.html">HOME</a>
+        <a href="about_us.html">ABOUT US</a>
+        <a href="service.html">SERVICES</a>
+        <a href="doctor.html">DOCTORS</a>
+        <a href="consulting.html">CONSULTING & RESERVATION</a>
+        <a href="pharmacy2.html">PHARMACY</a>
+    </nav>
+    
+      
+        <form action="/register-patient" method="POST">
+            <h3>999 Hospital Patient Registration and Medical Information Form</h3>
+            <div class="form-group">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="" disabled selected>Select your gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+    
+            
+            <h3>Contact Information</h3>
+            <div class="form-group">
+                <label for="contactno">Contact No:</label>
+                <input type="tel" id="contactno" name="contactno" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+    
+           
+            <h3>Emergency Contact Information</h3>
+            <div class="form-group">
+                <label for="emergencyname">Emergency Contact Name:</label>
+                <input type="text" id="emergencyname" name="emergencyname" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="relationship">Relationship to Patient:</label>
+                <input type="text" id="relationship" name="relationship" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="emergencycontactno">Emergency Contact No:</label>
+                <input type="tel" id="emergencycontactno" name="emergencycontactno" required>
+            </div>
+    
+             
+            <h3>Insurance Information</h3>
+            <div class="form-group">
+                <label for="insurancecompany">Insurance Company Name:</label>
+                <input type="text" id="insurancecompany" name="insurancecompany" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="policynumber">Policy Number:</label>
+                <input type="text" id="policynumber" name="policynumber" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="policyholder">Policyholder Name:</label>
+                <input type="text" id="policyholder" name="policyholder" required>
+            </div>
+     
+            <h3>Medical History</h3>
+            <div class="form-group">
+                <label for="conditions">Existing Conditions:</label>
+                <textarea id="conditions" name="conditions" rows="3" required></textarea>
+            </div>
+    
+            <div class="form-group">
+                <label for="medications">Current Medications:</label>
+                <textarea id="medications" name="medications" rows="3" required></textarea>
+            </div>
+    
+            <div class="form-group">
+                <label for="allergies">Allergies:</label>
+                <textarea id="allergies" name="allergies" rows="3" required></textarea>
+            </div>
+    
+            <div class="form-group">
+                <label for="surgeries">Previous Surgeries:</label>
+                <textarea id="surgeries" name="surgeries" rows="3" required></textarea>
+            </div>
+    
+          
+            <h3>Reason for Visit</h3>
+            <div class="form-group">
+                <label for="symptoms">Description of Symptoms:</label>
+                <textarea id="symptoms" name="symptoms" rows="3" required></textarea>
+            </div>
+    
+            <div class="form-group">
+                <label for="onset">Date of Onset:</label>
+                <input type="date" id="onset" name="onset" required>
+            </div>
+    
+            
+            <div class="signature">
+                <div>
+                    <label for="signature">Signature:</label>
+                    <input type="text" id="signature" name="signature" required>
+                </div>
+                <div>
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+            </div>
+     
+            <div class="form-group">
+                <button type="submit">Register Patient</button>
+            </div>
+             
+        </form>
+    </div>
+    <footer>
+        <p>Connect with us:</p>
+        <div class="footer-icons">
+            <a href="https://www.instagram.com/_itx.thesh_?igsh=MXlmaTF4bWx0cGs2&utm_source=qr" target="_blank">
+                <img src="images/ insta.jpeg" alt="Instagram">
+            </a>
+            <a href="wa.me/94701528305" target="_blank">
+                <img src="images/ whatsapp.jpg" alt="WhatsApp">
+            </a>
+            <a href="kaushi.peter@icloud.com" target="_blank">
+                <img src="images/ gmail.jpeg" alt="Gmail">
+            </a>
+        </div>
+        <p>&copy; 2024 999 Hospital. All rights reserved.</p>
+    </footer>
+     
+     
+</body>
+    
+</body>
+</html>

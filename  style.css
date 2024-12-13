@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/*naviation links*/
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #d3d3d3;  
+    padding: 10px 20px;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 16px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+ 
+.nav-links a:hover {
+    background-color: #999;
+    color: white;
+}
+
+/*more edits on logo*/
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;  
+}
+
+/*content of the page*/
+.content {
+    padding: 20px;
+}
+
+/*styles for section*/
+.section1 {
+    background-color: white;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+.section2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.section .text-content {
+    flex: 1;
+    text-align: center;
+}
+.section .image-content {
+    flex: 0 0 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0e0e0;  
+    border-radius: 5px;
+}
+.section .image-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+/* Position image on the left side for the second section */
+.section .image-content.left {
+    border: -1;
+}
+
+/*styles for footer*/
+.footer {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+}
+.footer p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+
+    
+ 
+ 
+
+
+
+ 
+     

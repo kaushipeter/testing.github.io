@@ -1,0 +1,596 @@
+/*document name*/
+.Name{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+     
+}
+
+/*hero section*/
+.hero{
+    height: 70vh;
+    background-image: url("images/\ colombo.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #f7f7f7;
+    width: 100%;
+}
+
+/*adding boddy colour*/
+body{
+    background-color: white;
+}
+
+/*content of home page*/
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: 50px auto;  
+}
+
+/*image box of the home page*/
+.image-box {
+    width: 70%;  
+}
+.image-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-right: 96px;
+}
+.care{
+    width: 30%;
+    height: 20%;
+}
+
+/*text content with the box of home page*/ 
+.text-box {
+    width: 100%;
+    background-color: #f5f5f5; 
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+    display: flex;
+    align-items: center; 
+    justify-content: center;  
+}
+.text-box p {
+    font-size: 18px;   
+}
+/*mobile view*/
+@media screen and (min-width:320px) and (max-width:360px){
+    .container{
+        flex-direction: column;
+    }
+    .image-box{
+        width: 300px;
+    }
+    .text-box{
+        padding: 30px;
+        width: 250px;
+        text-align: left;
+        flex-direction: column;   
+    }
+    .text-box p{
+        width: 250px;
+    }
+    .image-box iframe{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+/*header*/
+header{
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+/*navigation bar*/
+nav{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; 
+}
+/*navigation links*/
+nav a{
+    
+    flex: 1;
+    padding: 1px;
+    margin-left: 3px;
+    margin-right: 3px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size:  small;
+    color: white;
+}
+/*navihation hover*/
+nav a:hover{
+    color: skyblue;
+    text-decoration: underline;
+       
+}
+
+/*social img*/
+.whatsapp{
+    width: 10px;
+    height: 5px;
+}
+
+/*logo*/
+.logo{
+    width: 10px;
+    height: 100px;
+} 
+
+/*H2 headings*/
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: teal;
+    text-align: center;
+}
+
+/*media quaries for header, logo, h1, navigation and navigation anchor mobile view*/
+@media screen and (min-width:320px) and (max-width:360px) {
+    header{
+        height: 450px;
+        flex-direction: column;
+    }
+    .logo{
+        margin: 0%;
+        padding: 0%;
+        margin-right: 100px;
+    }
+    header h1{
+        font-size: 18px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav a{
+        text-align: center;
+        background-color: black;
+        border-radius: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 5px;
+    }
+}
+
+/*styles for paragraphs*/ 
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 30px;
+     
+}
+
+/*styles for lists*/
+li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+td{
+    text-align: center;
+}
+/*table*/
+.table_branch{
+    font-weight: bold;
+}
+/* media quaries for table mobile view*/
+@media screen and (min-width:320px) and (max-width:360px){
+    table{
+        width: 300px;
+    }
+    thead{
+        display: none;
+    }
+    tr {
+        margin-bottom: 15px;
+        border-bottom: 2px solid #ddd;
+    } 
+    td {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        position: relative;
+        border: none;
+        border-bottom: 1px solid #ddd;
+    }
+    td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 45%;
+        padding-left: 15px;
+        font-weight: bold;
+    }
+    .table_branch{
+        background-color: rgb(23, 93, 93);
+        color: white;
+    }
+}
+
+/*body content of the webpage*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Flexbox container for the services */
+.services-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap onto the next line if needed */
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Individual service cards */
+.service-box {
+    background-color: whitesmoke;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+/*annimations for service box*/
+.service-box:hover {
+    transform: scale(1.05); /* Slightly enlarges the box */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhances shadow */
+}
+
+/*individual service card's images*/
+.service-box img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+/*styles for service box heding2*/
+.service-box h2 {
+    font-size: 20px;
+    color: #005555;
+    margin: 10px 0;
+}
+.service-box p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Responsive Designs for service box */
+@media (max-width: 1200px) {
+    .service-box {
+        width: 45%; /* Two items per row for medium screens */
+    }
+}
+@media (max-width: 768px) {
+    .service-box {
+        width: 100%; /* Full width for mobile */
+    }
+}
+
+/*body styles of the webpage*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/*H1 styles*/
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #005555;
+}
+
+/*grid container styles*/
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    padding: 20px;
+}
+/*doctor's page content box*/
+.card {
+    background-color: whitesmoke;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px); /* Moves the card up */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+.card img {
+    width: auto;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 0%;
+    margin-bottom: 15px;
+}
+.card h2 {
+    font-size: 20px;
+    color: #005555;
+    margin: 10px 0;
+}
+.card p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Media queries for grid mobile view */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* Single column on small screens */
+    }
+}
+
+/*form */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 20px;
+}
+.form-container {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1, h3 {
+    text-align: center;
+    color: #004d4d;
+}
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.logo img {
+    max-width: 120px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-group input, 
+.form-group select, 
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.form-group button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+.form-group button:hover {
+    background-color: #45a049;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 20px;
+}
+.form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1, h3 {
+    text-align: center;
+    color: #004d4d;
+}
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.logo img {
+    max-width: 120px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.form-group button {
+    background-color: skyblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+.form-group button:hover {
+    background-color: darkcyan;
+     
+     
+}
+.signature {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.signature div {
+    width: 48%;
+}
+.signature input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+
+/*footer*/
+footer {
+    background-color: teal;  
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-icons {
+    margin: 10px 0;
+}
+.footer-icons a {
+    margin: 0 15px;
+    text-decoration: none;
+}
+.footer-icons img {
+    width: 30px; 
+    height: 30px;
+    vertical-align: middle;
+}
+.footer-icons a:hover img {
+    opacity: 0.8;  
+}
+/*mobile view for footer*/
+@media screen and (min-width:320px) and (max-width:360px){ 
+    footer{
+        width: 310px;
+    }   
+}
+/* Styling the product card */
+.product-card {
+    width: 250px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling the product image */
+.product-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Product Info Section */
+.product-info {
+    padding: 10px;
+}
+
+
+/* Product Name */
+.product-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* New Arrival Tag */
+.product-arrival {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+/* Product Price */
+.product-price {
+    font-size: 18px;
+    color: #2ecc71;
+    font-weight: bold;
+}
+/* Styling the container for product cards */
+.product-container {
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers the cards horizontally */
+    gap: 20px; /* Adds space between the cards */
+    margin: 20px auto;
+  }
+  
+  /* Individual product card styling */
+  .product-card {
+    width: 300px; /* Set a fixed width for each card */
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+  }
+  
+  /* Product image styling */
+  .product-image img {
+    width: 100%; /* Responsive image */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  /* Product information styling */
+  .product-info {
+    text-align: center;
+  }
+  
+  .product-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .product-arrival {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .product-price {
+    font-size: 16px;
+    color: #27ae60; /* Green text for price */
+    font-weight: bold;
+  }
+  

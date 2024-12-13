@@ -1,0 +1,422 @@
+/* General Page Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6; /* Light background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50; /* Green color for header */
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+ 
+.category {
+    margin-bottom: 20px;
+    background-color: #ffffff; /* White background for each category */
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Main content area */
+main {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Form section titles */
+h2 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Input and select styles */
+input[type="text"], input[type="email"], input[type="tel"], input[type="month"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+button {
+    background-color: lightskyblue;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 24%;
+}
+
+button:hover {
+    background-color: teal; /* A darker shade of teal for the hover effect */
+}
+
+
+/* Order Summary Section */
+#order-summary {
+    margin-bottom: 20px;
+}
+
+#order-summary div {
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #4CAF50;
+}
+
+#total-price {
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    form {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+.medicine-item img {
+    width: 100px; /* Adjust the width as per your design */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add some space between the image and text */
+    display: inline-block; /* Ensure images are displayed inline within the row */
+}
+
+.medicine-item label {
+    display: block;
+    font-size: 1rem;
+    color: #555;
+    margin-top: 5px;
+}
+
+input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+/* Order Table Styling */
+.table-container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: teal;
+    color: white;
+    font-size: 1.2rem;
+}
+
+table td {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Total Section */
+.total-section {
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: red; /* Red for total */
+    margin-top: 15px;
+}
+
+ 
+
+ 
+ 
+.medicine-item {
+    display: inline-block; /* Arrange items in a row */
+    margin: 10px; /* Space between items */
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff; /* White background for items */
+    border: 1px solid #ddd; /* Light border around each medicine item */
+    border-radius: 6px; /* Rounded corners */
+    width: 160px; /* Fixed width for each medicine item */
+    box-sizing: border-box; /* Ensure padding and borders are included in the width */
+}
+ 
+.medicine-img {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+}
+.quantity {
+    width: 50px; /* Adjust width for the quantity input */
+    margin-top: 10px;
+}
+h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em; /* Adjust heading size */
+    color: #008080; /* Teal color for the category heading */
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0;
+    background-color: #f9f9f9; /* Light background for headings */
+    border-radius: 6px; /* Rounded corners */
+    transition: background-color 0.3s ease;
+    
+}
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #008080; /* Teal background for the header */
+    color: white; /* White text color */
+    margin: 0;
+    font-size: larger;
+}
+/* Hover effect for dropdown heading */
+h3:hover {
+    background-color: #e0f7f7; /* Slightly different color on hover */
+}
+
+.medicine-item img {
+    width: 100px; /* Set image width */
+    height: 100px; /* Set fixed height to maintain consistency */
+    object-fit: cover; /* Ensure images don't stretch */
+    border-radius: 6px; /* Round image corners */
+    margin-bottom: 10px;
+}
+
+.medicine-item label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.medicine-item .quantity {
+    width: 60px; /* Set a fixed width for quantity input */
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 8px;
+}
+/* Header */
+header {
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+/* Navigation Bar */
+nav {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+/* Navigation Links */
+nav a {
+    flex: 1;
+    padding: 1px;
+    margin-left: 3px;
+    margin-right: 3px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: small;
+    color: lightgray;
+}
+
+/* Navigation Hover */
+nav a:hover {
+    color: skyblue;
+    text-decoration: underline;
+}
+
+/* Logo and Name */
+.logo img {
+    height: 80px;
+}
+
+.Name {
+    font-size: 1.5rem;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+}
+
+/* Pharmacy Info Section */
+#pharmacy-info {
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+#pharmacy-info h2 {
+    color: teal;
+}
+
+#pharmacy-info p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: darkgray;
+}
+
+
+.quantity-input {
+    margin: 10px 0;
+    width: 100%;
+}
+
+.button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #007b00;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #005a00;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+.clear-button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.clear-button:hover {
+    background-color: #c0392b;
+}
+
+
+/*footer*/
+footer {
+    background-color: teal;  
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-icons {
+    margin: 10px 0;
+}
+.footer-icons a {
+    margin: 0 15px;
+    text-decoration: none;
+}
+.footer-icons img {
+    width: 30px; 
+    height: 30px;
+    vertical-align: middle;
+}
+.footer-icons a:hover img {
+    opacity: 0.8;  
+}
+ 
